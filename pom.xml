@@ -11,6 +11,7 @@
     <modules>
         <module>eureka</module>
         <module>common</module>
+        <module>user-center</module>
     </modules>
 
     <name>st-cloud</name>
@@ -40,5 +41,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <!-- SpringBoot打jar包 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <executable>true</executable>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
