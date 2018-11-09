@@ -6,7 +6,7 @@ import com.eastedu.common.core.exception.BaseRuntimeException;
 /**
  * 数据未找到异常
  *
- * @author YuanSongMing
+ * 
  */
 public class DataNotFoundException extends BaseRuntimeException {
     private static final long serialVersionUID = 1L;
