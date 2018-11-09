@@ -12,3 +12,19 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
+swagger:
+  enabled: true
+  base-package: com.st.cloud.usercenter
+  base-path: /**
+  description: UserCenterAPI
+  exclude-path: /error
+  title: com.st.cloud.usercenter
+  version: 0.0.1-SNAPSHOT
+  authorization:
+    key-name: Authorization
+    name: Authorization
+    auth-regex: ^.*$
+logging:
+  level:
+    com:
+      st: debug
