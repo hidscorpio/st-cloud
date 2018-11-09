@@ -1,12 +1,13 @@
 package com.st.core.exception.runtime;
 
-import com.eastedu.common.core.exception.BaseErrorMessage;
-import com.eastedu.common.core.exception.BaseRuntimeException;
+
+import com.st.core.exception.BaseErrorMessage;
+import com.st.core.exception.BaseRuntimeException;
 
 /**
  * 数据操作异常
  *
- * @author YuanSongMing
+ * @author 枫竹
  */
 public class DataOperateException extends BaseRuntimeException {
     private static final long serialVersionUID = 1L;

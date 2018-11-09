@@ -6,7 +6,7 @@ import com.st.core.exception.BaseRuntimeException;
 /**
  * 请求无效异常
  *
- * @author YuanSongMing
+ * @author 枫竹
  */
 public class BadRequestException extends BaseRuntimeException {
     private static final long serialVersionUID = 1L;

@@ -6,7 +6,7 @@ import com.st.core.exception.BaseRuntimeException;
 /**
  * 业务异常
  *
- * @author YuanSongMing
+ * @author 枫竹
  */
 public class BusinessException extends BaseRuntimeException {
     private static final long serialVersionUID = 1L;

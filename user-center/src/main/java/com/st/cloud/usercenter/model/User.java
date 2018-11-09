@@ -9,8 +9,6 @@ import lombok.Data;
  * @version V1.0.0
  * @Title: User
  * @Package com.st.cloud.usercenter.model
- * @Description
- * @Company: 成都优彼致愿教育咨询有限公司
  * @date 2018/11/9 11:37
  */
 @Data

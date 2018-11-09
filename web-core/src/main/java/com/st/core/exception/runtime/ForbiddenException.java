@@ -7,7 +7,7 @@ import com.st.core.exception.BaseRuntimeException;
 /**
  * 未授权异常
  *
- * @author YuanSongMing
+ * @author 枫竹
  */
 public class ForbiddenException extends BaseRuntimeException {
     private static final long serialVersionUID = 1L;

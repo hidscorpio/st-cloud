@@ -1,12 +1,13 @@
 package com.st.core.exception.runtime;
 
-import com.eastedu.common.core.exception.BaseErrorMessage;
-import com.eastedu.common.core.exception.BaseRuntimeException;
+
+import com.st.core.exception.BaseErrorMessage;
+import com.st.core.exception.BaseRuntimeException;
 
 /**
  * 数据校验异常
  *
- * @author YuanSongMing
+ * @author 枫竹
  */
 public class DataValidateException extends BaseRuntimeException {
     private static final long serialVersionUID = 1L;

@@ -7,7 +7,7 @@ import com.st.core.exception.BaseRuntimeException;
 /**
  * 禁止访问异常
  *
- * @author YuanSongMing
+ * @author 枫竹
  */
 public class UnauthorizedException extends BaseRuntimeException {
     private static final long serialVersionUID = 1L;
