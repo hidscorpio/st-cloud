@@ -36,7 +36,7 @@ public class DocumentationConfig implements SwaggerResourcesProvider {
     @Override
     public List<SwaggerResource> get() {
         List<String> services = discoveryClient.getServices();
-        List<SwaggerResource> resources = new ArrayList<SwaggerResource>();
+        List<SwaggerResource> resources = new ArrayList<>();
         if (CollectionUtils.isEmpty(services)) {
             return resources;
         }

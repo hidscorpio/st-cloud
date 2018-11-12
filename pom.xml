@@ -14,6 +14,7 @@
         <module>user-center</module>
         <module>gateway</module>
         <module>web-core</module>
+        <module>tx-manager</module>
     </modules>
 
     <name>st-cloud</name>
